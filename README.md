@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Tampilan Halaman Utama
+
+![halaman utama](https://user-images.githubusercontent.com/88119082/158315436-07d7b259-4d31-4331-841b-810a3854777b.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
