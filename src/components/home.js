@@ -1,6 +1,37 @@
 import React from 'react'
 
 class Home extends React.Component {
+    constructor(){
+        super()
+        this.state = {
+            user: "" // untuk menyimpan data nama user
+        }
+    }
+    setUser = () => {
+        // cek eksistensi dari session storage
+        if(sessionStorage.getItem("user") === null){
+            // kondisi jika session storage "user" belum dibuat
+            let prompt = window.prompt("Masukkan Nama Anda","")
+            if(prompt === null || prompt === ""){
+                // jika user tidak mengisikan namanya
+                this.setUser()
+            }else{
+                // jika user telah mengisikan namanya
+
+                // simpan nama user ke session storage
+                sessionStorage.setItem("user", prompt)
+
+                // simpan nama user ke state.user
+                this.setState({user: prompt})
+            }
+        }else{
+            // kondisi saat session storage "user" telah dibuat
+
+            // akses nilai dari session storage "user"
+            let name = sessionStorage.getItem("user")
+            this.setState({user: name})
+        }
+    }
     linkGithub(){
         const confirm = window.confirm("Link to Fawwaz's GitHub?");
         if (confirm == true) {
