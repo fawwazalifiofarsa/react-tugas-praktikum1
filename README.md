@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Tampilan Halaman Utama
 
-![halaman utama](https://user-images.githubusercontent.com/88119082/158315436-07d7b259-4d31-4331-841b-810a3854777b.png)
+![halaman utama](https://user-images.githubusercontent.com/88119082/158315656-a10860f1-5f95-42e0-aaf0-418fb7b9b85f.png)
 
 ## Available Scripts
 
