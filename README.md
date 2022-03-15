@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 #Tampilan Halaman Utama
 
-![alt text](https://drive.google.com/file/d/1R8FrAroqnUhPe_Pr506JV8HtGr0bD1JT/view)
+![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjzC2JyZDZ_RaWf0qp11K0lcvB6b6kYNMoqtZAQ9hiPZ4cTIOB)
 
 ## Available Scripts
 
